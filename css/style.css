@@ -1,0 +1,50 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.picflex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+    align-items: center;
+}
+.modal-window {
+    position: fixed;
+    top: 50px;
+    left: 30%;
+    /*width: 400px;
+    height: 250px;*/
+    text-align: center;
+    border: 2px solid #555555;
+    border-radius: 8px;
+    background-color: #000;
+    box-shadow: 7px 7px 8px rgba(0,0,0,0.5);
+    transition: transform 0.7s;
+}
+.modal-window img {
+    width: 600px;
+}
+.modal-title {
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+.close {
+    position: absolute;
+    display: block;
+    top: 5px;
+    right: 7px;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding: 0 5px;
+    line-height: 25px;
+}
+.hidden {
+    transform: scale(0)
+}
+.visible {
+    transform: scale(1.0)
+}
